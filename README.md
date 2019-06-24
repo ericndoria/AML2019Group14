@@ -8,6 +8,10 @@ Gradient descent (GD) is important in machine learning as it enables optimisatio
 Plain vanilla GD works by minimising the function based on a learning rate hyperparameter and the gradient of the function. On computing the gradient, the parameter to be updated is adjusted in the opposite direction as the gradient (hence gradient 'descent'). The adjustment is computed as the learning rate multiplied by the gradient. This adjustment is then subtracted from the latest parameter value. It is therefore important to select an appropriate learning rate, otherwise the minimum obtained may not be close to the true minimum of the function. This is described in the formulae below:  
 
 update = learning_rate * gradient_of_parameters  
-parameters = parameters - update
+parameters = parameters - update  
 
-**Two modifications to plain vanilla gradient descent.**   
+**Two modifications to plain vanilla gradient descent.**  
+Includes GD with Momentum and Nesterov Accelerated Gradient (NAG), among others.
+
+*GD with Momentum*  
+*Nesterov Accelerated Gradient (NAG)*
