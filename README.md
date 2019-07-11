@@ -19,3 +19,13 @@ This takes the direction of the previous steps into account and thus accelerates
 NAG provides further improvement on GD with Momentum. It takes further account of the velocity of the GD process and further avoids oscillation, especially when the learning rate selected is high. It does this by 'peeking' ahead and slowing down if the gradient is getting much flatter or if it reverses direction.
 
 **GD Illustrations:**
+
+We will demonstrate the above variants of GD by attempting to minimise the Three-Hump Camel function.
+
+This function is as follows:
+
+
+
+*1. Plain Vanilla GD*
+*2. GD with Momentum*
+*3. Nesterov Accelerated Gradient (NAG)*
