@@ -36,8 +36,11 @@ Plotting the function produces the following graphical illustration:
 
 ![alt text](f(x_1,x_2)_graph.png)
 
+From the above graph, it can be seen that the function has multiple minima and it is thus non-trivial.
 
 *1. Plain Vanilla GD*
+
+For plain vanilla GD, we carried out an analysis of how number of steps to convergence varies with step size. The graph below illustrates our findings.
 
 *2. GD with Momentum*
 
