@@ -24,7 +24,7 @@ We will demonstrate the above variants of GD by attempting to minimise the Three
 
 This function is as follows:
 
-![alt text](f(x_1,x_2).gif)
+![alt text](Images/f(x_1,x_2).gif)
 
 While the partial derivatives are as follows:
 
