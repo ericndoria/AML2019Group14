@@ -34,7 +34,7 @@ While the partial derivatives are as follows:
 
 Plotting the function produces the following graphical illustration:
 
-![alt text](f(x_1,x_2)_graph.gif)
+![alt text](f(x_1,x_2)_graph.png)
 
 
 *1. Plain Vanilla GD*
