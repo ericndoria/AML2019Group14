@@ -50,7 +50,13 @@ The above graph shows that as step size increases, the number of steps to conver
 
 With the smallest step size considered (5*1e-5), the minimum loss derived was 3.152e-12 while with the largest step size (1e-3), the minimum loss derived was 3.142e-12. This does not reflect the global minimum and thus plain vanilla GD may not be the ideal method of obtaining the global minimum.
 
-The graphic below illustrates the path followed by gradient descent. On arriving at one of the proximate mimimas, the process breaks. This problem can however be solved by Momentum or NAG.
+The graphic below illustrates the path followed by gradient descent (based on a step size of 1e-4).
+
+![alt text](GD_graph_path.png)
+
+On arriving at one of the proximate mimimas, the process breaks. This problem can however be solved by Momentum or NAG.
+
+
 
 *2. Comparison of Plain Vanilla GD with Momentum and NAG* 
 
