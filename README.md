@@ -52,7 +52,7 @@ With the smallest step size considered (5*1e-5), the minimum loss derived was 3.
 
 The graphic below illustrates the path followed by gradient descent. On arriving at one of the proximate mimimas, the process breaks. This problem can however be solved by Momentum or NAG.
 
-*2. Comparison of Plain Vanilla GD with Momentum and NAG*
+*2. Comparison of Plain Vanilla GD with Momentum and NAG* 
 
 The graph below compares the performance of the 3 variants of GD being considered.
 
