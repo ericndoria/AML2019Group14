@@ -51,7 +51,7 @@ The above graph shows that as step size increases, the number of steps to conver
 *2. Comparison of Plain Vanilla GD with Momentum and NAG*
 The graph below compares the performance of the 3 variants of GD being considered.
 
-![alt text](GD_graph_pv.png)
+![alt text](GD_graph.png)
 
 From the above, it can be seen that plain vanilla GD requires a significantly higher number of steps to convergence as compared to Momentum and NAG. For example for step size = 5*1e-5, plain vanilla GD required 178,330 steps while Momentum required	7,430 steps and NAG required 7,448 steps. This trend is consistent as the step size increases.
 
