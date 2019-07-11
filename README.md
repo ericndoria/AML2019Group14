@@ -38,11 +38,21 @@ Plotting the function produces the following graphical illustration:
 
 From the above graph, it can be seen that the function has multiple minima and it is thus non-trivial.
 
+We opted to set the tolerance at 1e-11, initial x_1 and x_2 at 5 , number of iterations at 200000 initial step size at 5*1e-5, tolerance at 1e-11 and alpha at 0.95 for both Momentum and NAG.
+
 *1. Plain Vanilla GD*
 
 For plain vanilla GD, we carried out an analysis of how number of steps to convergence varies with step size. The graph below illustrates our findings.
 
-*2. GD with Momentum*
+![alt text](GD_graph_pv.png)
 
-*3. Nesterov Accelerated Gradient (NAG)*
+The above graph shows that as step size increases, the number of steps to convergence also increases.
+
+*2. Comparison of Plain Vanilla GD with Momentum and NAG*
+The graph below compares the performance of the 3 variants of GD being considered.
+
+![alt text](GD_graph_pv.png)
+
+From the above, it can be seen that plain vanilla GD requires a significantly higher number of steps to convergence as compared to Momentum and NAG. For example for step size = 5*1e-5, plain vanilla GD required 178,330 steps while Momentum required	7,430 steps and NAG required 7,448 steps. This trend is consistent as the step size increases.
+
 
