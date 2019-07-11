@@ -25,8 +25,11 @@ We will demonstrate the above variants of GD by attempting to minimise the Three
 This function is as follows:
 
 ![alt text](f(x_1,x_2).gif)
+
 ![alt text](differential wrt x_1.gif)
+
 ![alt text](differential wrt x_2.gif)
+
 
 *1. Plain Vanilla GD*
 
