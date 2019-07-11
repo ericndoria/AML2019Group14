@@ -70,10 +70,10 @@ On setting the step size to 1e-4 and alpha = 0.95, the path of the gradient desc
 
 ![alt text](GD_graph_path_momentum.png)
 
-By following a path along both independent axes, this method provides improves the chances of finding a global minimum. The miminum derived in this case is 3.140e-12, which is marginally lower than the corresponding minimum of 3.151e-12 obtained through plain vanilla GD.
+By following a path along both independent axes, this method improves the chances of finding a global minimum. The miminum derived in this case is 3.140e-12, which is marginally lower than the corresponding minimum of 3.151e-12 obtained through plain vanilla GD.
 
-NAG however did not lead to desirable results as a minimum of 0.298 was obtained using the same paramaters as Momentum above. By setting alpha to 0.99, the minimum obtained by NAG was 1.411e-12, which is a better result than both plain vanilla GD and Momentum. A graph illustrating the path taken by GD is provided below.
+NAG however did not lead to desirable results as a minimum of 0.298 was obtained using the same paramaters as Momentum above. By setting alpha to 0.99, the minimum obtained by NAG was 1.411e-12, which is a better result than both plain vanilla GD and Momentum. A graph illustrating the path taken by NAG is provided below.
 
 ![alt text](GD_graph_path_NAG.png)
 
-Momentum and NAG therefore provide acceptable results with fewer steps. Based on this, these two variants may provide a better alternative relative to plain vanilla GD.
+Momentum and NAG therefore provide acceptable results with fewer steps. Based on this, these two variants may provide a better alternative relative to plain vanilla GD. Also, by taking into account previous steps, haphazard oscilation of the GD is avoided thus reducing chances of divergence.
