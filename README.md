@@ -11,9 +11,11 @@ Plain vanilla GD works by minimising the function based on a learning rate and t
 Includes GD with Momentum and Nesterov Accelerated Gradient (NAG), among others.
 
 *GD with Momentum*
+
 This takes the direction of the previous steps into account and thus accelerates and smoothens the process of finding a minimum. It therefore dempens the oscillations of plain vanila GD and avoids getting stuck at saddle points.
 
 *Nesterov Accelerated Gradient (NAG)*
+
 NAG provides further improvement on GD with Momentum. It takes further account of the velocity of the GD process and further avoids oscillation, especially when the learning rate selected is high. It does this by 'peeking' ahead and slowing down if the gradient is getting much flatter or if it reverses direction.
 
 **GD Illustrations:**
