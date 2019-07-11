@@ -66,6 +66,14 @@ The graph below compares the performance of the 3 variants of GD being considere
 
 From the above, it can be seen that plain vanilla GD requires a significantly higher number of steps to convergence as compared to Momentum and NAG. For example for step size = 5*1e-5, plain vanilla GD required 178,330 steps while Momentum required	7,430 steps and NAG required 7,448 steps. This trend is consistent as the step size increases.
 
-On setting the step size to 1e-4, the path of the gradient descent for Momentum is as shown below.
+On setting the step size to 1e-4 and alpha = 0.95, the path of the gradient descent for Momentum is as shown below.
 
 ![alt text](GD_graph_path_momentum.png)
+
+By following a path along both independent axes, this method provides improves the chances of finding a global minimum. The miminum derived in this case is 3.140e-12, which is marginally lower than the corresponding minimum of 3.151e-12 obtained through plain vanilla GD.
+
+NAG however did not lead to desirable results as a minimum of 0.298 was obtained using the same paramaters as Momentum above. By setting alpha to 0.99, the minimum obtained by NAG was 1.411e-12, which is a better result than both plain vanilla GD and Momentum. A graph illustrating the path taken by GD is provided below.
+
+![alt text](GD_graph_path_NAG.png)
+
+Momentum and NAG therefore provide acceptable results with fewer steps. Based on this, these two variants may provide a better alternative relative to plain vanilla GD.
