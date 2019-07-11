@@ -24,8 +24,11 @@ We will demonstrate the above variants of GD by attempting to minimise the Three
 
 This function is as follows:
 
-
+![alt text](f(x_1,x_2).gif)
 
 *1. Plain Vanilla GD*
+
 *2. GD with Momentum*
+
 *3. Nesterov Accelerated Gradient (NAG)*
+
