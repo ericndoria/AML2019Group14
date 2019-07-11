@@ -26,13 +26,11 @@ This function is as follows:
 
 ![alt text](f(x_1,x_2).gif)
 
-![alt text](f(x_1,x_2).gif)
-
 While the partial derivatives are as follows:
 
-![alt text](differential wrt x_1.gif)
+![alt text](differential_wrt_x_1.gif)
 
-![alt text](differential wrt x_2.gif)
+![alt text](differential_wrt_x_2.gif)
 
 
 *1. Plain Vanilla GD*
