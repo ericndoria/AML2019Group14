@@ -32,6 +32,10 @@ While the partial derivatives are as follows:
 
 ![alt text](differential_wrt_x_2.gif)
 
+Plotting the function produces the following graphical illustration:
+
+![alt text](f(x_1,x_2)_graph.gif)
+
 
 *1. Plain Vanilla GD*
 
