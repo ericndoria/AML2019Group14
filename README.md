@@ -54,7 +54,7 @@ The graphic below illustrates the path followed by gradient descent (based on a 
 
 ![alt text](GD_graph_path.png)
 
-On arriving at one of the proximate mimimas, the process breaks. This problem can however be solved by Momentum or NAG.
+It can be seen that the GD path oscilates significantly before arriving at the minimum. Also, at arriving at one of the proximate mimimas, the process breaks. These problems can be solved by Momentum or NAG.
 
 
 
@@ -66,4 +66,4 @@ The graph below compares the performance of the 3 variants of GD being considere
 
 From the above, it can be seen that plain vanilla GD requires a significantly higher number of steps to convergence as compared to Momentum and NAG. For example for step size = 5*1e-5, plain vanilla GD required 178,330 steps while Momentum required	7,430 steps and NAG required 7,448 steps. This trend is consistent as the step size increases.
 
-
+On setting the step size to 1e-4, the path
