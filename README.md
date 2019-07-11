@@ -38,7 +38,7 @@ Plotting the function produces the following graphical illustration:
 
 From the above graph, it can be seen that the function has multiple minima and it is thus non-trivial.
 
-We opted to set the tolerance at 1e-11, initial x_1 and x_2 at 5 , number of iterations at 200000 initial step size at 5*1e-5, tolerance at 1e-11 and alpha at 0.95 for both Momentum and NAG.
+We opted to set the tolerance at 1e-11, initial x_1 and x_2 at 5 , number of iterations at 200,000 step size at 1e-4, tolerance at 1e-11 and alpha at 0.95 for both Momentum and NAG.
 
 *1. Plain Vanilla GD*
 
